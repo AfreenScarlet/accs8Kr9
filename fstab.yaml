@@ -1,0 +1,7 @@
+mountpoints:
+  /:
+    url: https://content.da.live/AfreenScarlet/accs8Kr9/
+    type: markup
+
+folders:
+  /products/: /products/default
