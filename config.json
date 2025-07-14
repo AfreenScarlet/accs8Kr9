@@ -31,12 +31,12 @@
     "/fr-ca/": {
         "headers": {
            "all": {
-              "Store": "fr-ca"
+              "Store": "fr_ca"
            },
            "cs": {
               "Magento-Store-Code": "citisignal_store",
               "Magento-Website-Code": "citisignal",
-              "Magento-Store-View-Code": "fr-ca"
+              "Magento-Store-View-Code": "fr_ca"
            }
         }
      },
