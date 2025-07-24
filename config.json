@@ -39,6 +39,7 @@
               "Magento-Store-View-Code": "fr_ca"
            }
         }
-     }
+     },
+    "commerce-assets-enabled": true
   }
 }
