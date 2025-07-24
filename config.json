@@ -26,7 +26,8 @@
         "store-view-name": "Citisignal Store View",
         "website-id": 1,
         "website-name": "Citisignal Website"
-      }
+      },
+      "commerce-assets-enabled": true
     },
     "/fr-ca/": {
         "headers": {
@@ -39,7 +40,6 @@
               "Magento-Store-View-Code": "fr_ca"
            }
         }
-     },
-    "commerce-assets-enabled": true
+     }
   }
 }
