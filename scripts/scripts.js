@@ -20,7 +20,7 @@ import {
   decorateLinks,
 } from './commerce.js';
 
-const experimentationConfig = {
+/*const experimentationConfig = {
   prodHost: 'www.my-site.com',
   audiences: {
     mobile: () => window.innerWidth < 600,
@@ -38,7 +38,7 @@ if (isExperimentationEnabled) {
     loadEager: runExperimentation,
     loadLazy: showExperimentationOverlay,
   } = await import('../plugins/experimentation/src/index.js'));
-}
+}*/
 
 /**
  * Builds hero block and prepends to main in a new section.
@@ -98,9 +98,9 @@ export function decorateMain(main) {
  */
 async function loadEager(doc) {
   // Add below snippet early in the eager phase
-  if (runExperimentation) {
+  /*if (runExperimentation) {
     await runExperimentation(document, experimentationConfig);
-  }
+  }*/
 
   document.documentElement.lang = 'en';
   decorateTemplateAndTheme();
@@ -143,9 +143,9 @@ async function loadLazy(doc) {
   loadCommerceLazy();
 
   // Add below snippet at the end of the lazy phase
-  if (showExperimentationOverlay) {
+  /*if (showExperimentationOverlay) {
     await showExperimentationOverlay(document, experimentationConfig);
-  }
+  }*/
 
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   loadFonts();
